@@ -22,7 +22,7 @@ export function Header() {
               <ChevronLeft className="size-6" aria-hidden="true" />
             </Link>
           ) : (
-            <Link href="/" className="block w-32 sm:w-40 text-[hsl(var(--coral))]" data-testid="link-logo">
+            <Link href="/" className="block w-56 sm:w-72 text-[hsl(var(--coral))]" data-testid="link-logo">
               <Logo />
             </Link>
           )}
